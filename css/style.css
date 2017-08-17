@@ -230,7 +230,7 @@ visibility: 100%;}
 }
 
 .modal-dialog-experience {
-  width: 60vw;
+  width: 70vw;
   overflow: hidden;
   color: rgba(250,250,250,.9);
 }
@@ -239,20 +239,20 @@ visibility: 100%;}
     color: rgba(250,250,250,.9);
 }
 .modal-dialog-courses {
-  width: 60vw;
+  width: 70vw;
   overflow: hidden;
   color: rgba(250,250,250,.7);
 
 }
 .modal-dialog-projects {
-  width: 100vw;
+  width: 80vw;
   overflow: hidden;
   color: rgba(250,250,250,.7);
 
 }
 
 .modal-dialog-references {
-  width: 100vw;
+  width: 70vw;
   overflow: hidden;
   color:rgba(250,250,250,1)
 }
