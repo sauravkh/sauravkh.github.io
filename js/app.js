@@ -1,4 +1,4 @@
- 
+
 
  var typed3 = new Typed('#typed3', {
     strings: ['I am a data programmer', 'I am a web developer', 'I am a co-founder', 'I am a machine learning enthusiast','and love Hiking and kayaking'],
@@ -16,6 +16,3 @@
     fadeOut: true,
     loop: false
   });
-
-
-
