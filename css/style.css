@@ -150,11 +150,13 @@ visibility: 100%;}
   }
   .options:hover {
     color: rgb(200,200,200);
-    filter:blur(2px);
+    filter: invert(50%);
+    
+
     }
   .options-hover {
 
-color: rgb(150,150,150);
+    color: rgb(150,150,150);
   }
   .signs {
     margin-top: 3%; 
