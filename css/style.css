@@ -240,6 +240,10 @@ visibility: 100%;}
   color: rgba(250,250,250,.9);
 }
 
+.modal-dialog-experience a {
+  color: rgba(250,250,250,.9);
+  text-decoration: underline;
+}
 .modal-dialog-experience h2 {
     color: rgba(250,250,250,.9);
 }
