@@ -12,6 +12,15 @@ padding: 0;
 
 }
 
+.job-title {
+  font-size:1.4em;
+
+}
+
+.company-name {
+  font-size:1.3em;
+}
+
 .last-line {
    display: flex;
   justify-content: center;
