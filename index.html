@@ -10,16 +10,16 @@
       <link href="https://fonts.googleapis.com/css?family=Josefin+Sans|PT+Serif|Roboto|Work+Sans" rel="stylesheet">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.css">
       <link rel="stylesheet" href="css/style.css">
-      <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+      <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-144481377-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-  ga('create', 'UA-104947892-1', 'auto');
-  ga('send', 'pageview');
-
+  gtag('config', 'UA-144481377-1');
 </script>
+
    </head>
    <body>
    <!-- Typed.js name and intro line animation -->
@@ -35,7 +35,7 @@
       <!-- about me paragraph -->
       <div>
          <div class=" container animated fadeInLeft about-me">
-            Hello, I'm a <span class="about-me-highlight">developer</span> and a junior studying <a href="https://ischool.uw.edu/academics/informatics"> <span class="about-me-highlight">Informatics</span></a> at <a href="https://www.washington.edu/"><span class="about-me-highlight">University of Washington, Seattle</span></a>. I have experience in data programming, web dev, UI/UX design and object oriented programming. Currently, I am interested in <a href="https://en.wikipedia.org/wiki/Machine_learning"><span class="about-me-highlight">Machine Learning</span></a> and am exploring its applications on a few projects. Also, I love Hiking and Kayaking.
+            Hello, I'm a <span class="about-me-highlight">developer</span> and a senior studying <a href="https://ischool.uw.edu/academics/informatics"> <span class="about-me-highlight">Informatics</span></a> at <a href="https://www.washington.edu/"><span class="about-me-highlight">University of Washington, Seattle</span></a>. I have experience in data programming, web development, object oriented programming. Currently, I am interested in <a href="projects.html"><span class="about-me-highlight">Machine Learning</span></a> and am exploring its applications on a few <a href="projects.html"> <span  class="about-me-highlight">projects</span></a>. Feel free to checkout some my work <a href="projects.html"> <span  class="about-me-highlight">here</span></a> and drop me a line <a href="mailto:skharb@uw.e?Subject=Hello%20again" target="_top"><span class="about-me-highlight">here</span></a>. 
          </div>
 
          <!-- Row of buttons for modals-->
@@ -49,12 +49,13 @@
                   </div>
                   </button>
                <!-- Projects modal -->
-               <button type="button" class="button-background" data-toggle="modal" data-target="#projects">
+               <a href="projects.html"><button type="button" class="button-background" >
                   
                      <div class="col-lg-3 col-md-6 options target-projects">
                         <img class="options-hover" src="css/img/projects.svg">
                         <h2 class="options-hover">projects</h2>
                      </div>
+                </a>
                   
                 </button>
                <!-- skills modal -->
@@ -108,15 +109,22 @@
                         
                         
                         <p>
-							<li>
-								Build analytics tools that utilize the data pipeline to provide actionable insights into customer acquisition, operational efficiency and other key business performance metrics.
-
-							</li>
-							<li>
-								Assemble large, complex data sets that meet functional / non-functional business requirements
-							</li>
-							<li>Build the infrastructure required for optimal extraction, transformation, and loading of data from a wide variety of data sources using SQL and AWS ‘big data’ technologies</li>
-						</p>
+                          <li>
+                            Work on clustering Ads into industry categories to support DPP
+product
+                          </li>
+                          <li>
+                            Implement K-means clustering using textual features from websites
+                          </li>
+                          <li>
+                            Helped with data analysis - developed metrics and interactive
+dashboards using Amazon AWS
+                          </li>
+							             <li>
+                            Lead Data Science initiatives in a cross-functional agile startup
+       
+                           </li>
+						            </p>
                      </div>
                         <hr class="hr-break">
                      <div>
@@ -153,13 +161,20 @@
                               <img width="50px" height="50px" src="css/img/foster.png">
                            </span>
                            <span style="margin-left:2%;">
-                              <strong> <span class="job-title"> Undergraduate Research Assistant </span>| <span class="company-name"> <a href="https://foster.uw.edu/">Foster School of Business</a> </span>|</strong>
+                              <strong> <span class="job-title"> Undergraduate Research Assistant </span> |  <span class="company-name"> <a href="https://www.insead.edu/">INSEAD Business School</a> </span> | <span class="company-name"> <a href="https://foster.uw.edu/">Foster School of Business</a> </span> </strong>
 
                               <em>October 2016 - Present</em>
                            </span>
                         </div>
 
-                        <p>Working under Professor Abhishek Borah and a mentor at Microsoft to automate data scraping using API’s, process data and provide analysis using R programming language</p>
+                        <p>
+                          <li>
+                            Improved performance of a model to observe the effect of brand
+visibility on conspicuous consumption by 15%
+                          </li>
+
+                          <li>Working under Professor Abhishek Borah and a mentor at Microsoft to automate data scraping using API’s, process data and provide analysis using Python</li>
+                            </p>
                      
                      <hr class="hr-break">
 
@@ -170,7 +185,7 @@
                               <img width="50px" height="50px" src="css/img/ischool.png">
                            </span>
                            <span style="margin-left:2%;">
-                              <strong> <span class="job-title"> Teaching Assistant </span>| <span class="company-name"> <a href="https://ischool.uw.edu/">Information School</a> </span>|</strong>
+                              <strong> <span class="job-title"> Teaching Assistant </span>| <span class="company-name"> <a href="https://ischool.uw.edu/">Information School (INFO 200,201)</a> </span>|</strong>
 
                               <em>September 2017 - Present</em>
                            </span>
@@ -219,17 +234,17 @@
                      <h2>Skills</h2>
                      <hr>
                      <p>
-                        Data programming, Front-end Development, Machine Learning,  UI/UX design and object oriented programming
+                        &middot Data programming &middot Data Modelling &middot Statistics, Machine Learning &middot Front-end Development &middot object oriented programming
                      </p>
                      <hr>
                      <div style="display: flex;justify-content: center;">Languages</div>
                      <p>
-                         Java &middot R &middot Python &middot Javascript &middot HTML &middot CSS &middot Node.js &middot MongoDB &middot SQL
+                         Python &middot R &middot Java &middot Javascript &middot HTML/CSS &middot SQL 
                      </p>
                      <hr>
                      <div style="display: flex;justify-content: center;">Tools</div>
                      <p>
-                        &middot ReactJS &middot Firebase &middot OpenCV &middot JQuery &middot Bootstrap &middot ggplot &middot REST API's &middot Git
+                        &middot AWS &middot Sci-kit Learn  &middot ReactJS &middot Firebase &middot OpenCV &middot JQuery &middot Bootstrap &middot ggplot &middot REST API's &middot GIT &middot Linux
                      </p>
                   </div>
                   <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
@@ -272,8 +287,13 @@
                      <hr>
                      <h3>Relevant University Coursework</h3>
                      <ul>
+                      <li>Advanced Data Science -<em>INFO 371</em></li>
+                      <li>Introduction to Data Science -<em>INFO 370</em></li>
+                      <li>Advanced Database Design and Management -<em>INFO 430</em></li>
+                      <li>Server Side Web Development -<em>INFO </em></li>
                      	<li>Client Side Web Development -<em>INFO 343</em></li>
                      	<li>Introduction to Relational Database Management Systems -<em>INFO 340</em></li>
+                      <li>Population Health Informatics -<em>INFO 478</em></li>
                         <li>Computer Programming I (Object Oriented Programming with Java) -<em>CSE 142</em></li>
                         <li>Computer Programming II (Data Structures) -<em>CSE 142</em></li>
                         <li>Technical Foundations of Informatics (Data Programming with R) -<em>INFO 201</em></li>

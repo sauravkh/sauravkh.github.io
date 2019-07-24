@@ -1,0 +1,97 @@
+.heading {
+	color:rgba(290,290,290,1);
+	font-size:3em;
+}
+
+.heading:hover {
+	color: rgba(180,255,250,.9);
+}
+
+
+body {
+	font-family: 'PT Mono', monospace;
+	padding: 0;
+  	margin: 0;
+  	background-color: #181818;
+
+}
+
+.topics {
+	display: flex;
+	justify-content: space-between;
+}
+
+.card-descr {
+	font-size: 0.7em;
+}
+
+.section-1 {
+	padding-top: 2%;
+	overflow:auto; 
+}
+
+.back {
+	background-color: white;
+	border-radius: 50%;
+	height: 45px;
+	width: 45px;
+}
+
+.card-headings {
+	height: 220px;
+	width: 360px;
+	background-color: rgba(180,255,250,.9);
+	color:black;
+}
+
+.card-title {
+	margin: 5px;
+}
+
+
+.card-headings:hover {
+	background-color: #1f6367;
+}
+
+.icons > a > img {
+ height: 5vh;
+ width: 5vh;
+}
+
+.last-line {
+	color:rgba(250,250,250,1);
+}
+.card-project {
+	flex-shrink: 1;
+	height: 300px;
+	width: 360px;
+	margin:auto;
+	align-items: center;
+	display: flex; 
+	justify-content: center;
+  background-image: linear-gradient(to right, rgba(137, 196, 244, 0.8), rgba(230,230,230,1));
+}
+
+.card-project:hover {
+	  background-image: linear-gradient(to right, rgba(250,270,250,1), rgba(170,170,170,0.9));
+}
+
+h3 > a {
+	color:rgba(250,250,250,0.9);
+}
+
+.full {
+	flex-flow: row wrap;
+	width: 100%;
+	min-height: 100vh;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+
+.card-titlee {
+	margin: auto;
+	font-size: 2.1rem;
+
+}
