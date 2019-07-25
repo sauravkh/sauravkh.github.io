@@ -1,7 +1,7 @@
 
 
  var typed3 = new Typed('#typed3', {
-    strings: ['I am a data programmer', 'I am a web developer', 'a machine learning enthusiast', 'looking for business collabs', 'and always open to connect :)'],
+    strings: ['I am a data programmer', 'a web developer', 'a machine learning enthusiast', 'looking for business collabs', 'and always open to connect :)'],
     typeSpeed: 40,
     backSpeed: 20,
     smartBackspace: true, // this is a default
@@ -16,3 +16,4 @@
     fadeOut: true,
     loop: false
   });
+
