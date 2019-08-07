@@ -169,6 +169,9 @@ visibility: 100%;}
   }
   .signs {
     margin-top: 3%; 
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
   }
 
 
