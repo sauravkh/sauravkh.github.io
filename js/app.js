@@ -1,15 +1,24 @@
 
 
  var typed3 = new Typed('#typed3', {
-    strings: ['I am a data programmer', 'a web developer', 'a machine learning enthusiast', 'looking for business collabs', 'and always open to connect :)'],
-    typeSpeed: 40,
-    backSpeed: 20,
+    strings: [ 'Data Science', 'machine learning','web development', 'predictive modelling'],
+    typeSpeed: 100,
+    backSpeed: 10,
     smartBackspace: true, // this is a default
     loop: true
   });
 
   var typed2 = new Typed('#typed2', {
     strings: ['Saurav Kharb'],
+    typeSpeed: 25,
+    backSpeed: 200,
+    cursorChar:'',
+    fadeOut: true,
+    loop: false
+  });
+
+  var typed4 = new Typed('#typed4', {
+    strings: ['I love working in'],
     typeSpeed: 25,
     backSpeed: 200,
     cursorChar:'',
